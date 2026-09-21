@@ -3,7 +3,7 @@ import Button from "../../../common/button";
 import {Leaf,Truck,ShieldCheck} from 'lucide-react'
 export default function HeroContent() {
   return (
-    <div className="heroContentContainer flex flex-col space-y-4   ">
+    <div className="heroContentContainer flex flex-col space-y-4    ">
       <div className="eyeBrowContainer">
         <p className="text-[12px] tracking-[2px] text-[#9B968E] font-semibold">DISCOVER A BRIGHTER EVERYDAY</p>
       </div>
