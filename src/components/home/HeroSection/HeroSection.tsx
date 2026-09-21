@@ -6,9 +6,9 @@ import HeroVisual from './HeroSectionContent/HeroVisual'
 
 export default function HeroSection() {
   return (
-    <section className="heroSectionContainer w-full  flex items-center justify-center bg-[#F3EBE2]">
+    <section className="heroSectionContainer w-full min-h-120 bg-cover bg-center bg-no-repeat flex items-center justify-start " style={{backgroundImage:`url(${bgOverlay.src})`}}>
         
-        <div className='w-full grid grid-cols-[450px_1.1fr] bg-contain bg-center bg-no-repeat'style={{backgroundImage:`url(${bgOverlay.src})`}}>
+        <div className='max-w-345 mx-auto flex p-3.5 items-center  '>
             <HeroContent/> 
             <HeroVisual/>
         </div>
