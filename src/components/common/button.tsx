@@ -28,7 +28,7 @@ export default function button({
   const variantSize = {
     sm: " px-4 text-xs",
     md: "py-2 px-5 text-sm",
-    lg: "py-4 px-8 text-sm w-40",
+    lg: "py-4 px-8 text-sm w-40 font-semibold font-body",
   };
 
   return (

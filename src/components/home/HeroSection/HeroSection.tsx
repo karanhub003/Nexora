@@ -7,13 +7,18 @@ import HeroImageChanger from './HeroSectionContent/HeroImageChanger'
 
 export default function HeroSection() {
   return (
-    <section className="heroSectionContainer w-full min-h-120 bg-cover bg-center bg-no-repeat flex items-end justify-start py-8 px-3.5" style={{backgroundImage:`url(${bgOverlay.src})`}}>
-        
-        <div className='max-w-345 mx-auto flex px-4 py-2.5  items-center   '>
+    <section className="heroSectionContainer w-full min-h-160 bg-cover bg-center bg-no-repeat flex  py-8 px-3.5" style={{backgroundImage:`url(${bgOverlay.src})`}}>
+        <div className='max-w-360 grid grid-cols-[500px_1fr]   gap-4  mx-auto  '>
+            <div className='flex gap-8'>
             <HeroContent/> 
-            <HeroVisual/>
+            </div>
+            <div className='flex items-end'>
+              <HeroVisual/>
+              <HeroImageChanger/>
+            </div>
+            
         </div>
-        <HeroImageChanger/>
+        
 
     </section>
   )
