@@ -33,10 +33,10 @@ export default function HeroContent() {
         </div>
       </div>
       <div className="actionBtnWrapper  flex space-x-3 mt-3">
-        <Button variant="primary" size="lg">
+        <Button variant="primary" size="lg" className="w-50">
           Shop Now
         </Button>
-        <Button variant="outline" size="lg">
+        <Button variant="outline" size="lg" className="w-50">
           Watch Video
         </Button>
       </div>
