@@ -3,6 +3,7 @@ import CategoriesContent from "@/components/home/CategoriesSection/CategoriesCon
 import HeroSection from "@/components/home/HeroSection/HeroSection";
 import HighLightingProductsSection from "@/components/home/HighLightingProducts/HighLightingProductsSection";
 import PromotionalSection from "@/components/home/promotionalSection/promotionalSection"
+import UserRecommendedSection from "@/components/home/recommendationSectio/UserRecommendedSection";
 import TrustSection from "@/components/home/trustSection/TrustSection";
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       <PromotionalSection/>
       <BrandSection/>
       <TrustSection/>
+      <UserRecommendedSection/>
       </div>
       
       </>

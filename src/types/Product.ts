@@ -14,4 +14,5 @@ export type Product={
     stock:number,
     images:string,
     description:string
+    isNew?:boolean
 }

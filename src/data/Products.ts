@@ -86,3 +86,94 @@ export const featuredProducts: Product[] = [
     description: "A versatile urban backpack designed for everyday use.",
   },
 ];
+
+export const searchProduct:Product[]=[
+  {
+    id: "elec-005",
+    name: "Samsung 55-inch Crystal 4K TV",
+    slug: "samsung-55-inch-crystal-4k-tv",
+    categoryId: "electronics",
+    brandId: "samsung",
+    price: 42999,
+    originalPrice: 59999,
+    discountPercentage: 28,
+    rating: 4.5,
+    reviewCount: 720,
+    stock: 14,
+    images: "/ProductsImages/Samsung Crystal UHD 4K TV Product Hero.webp",
+    description:
+      "4K smart television with vivid colors, smart streaming apps and a slim design.",
+      isNew:false
+
+  },
+  {
+     id: "elec-007",
+    name: "Samsung Galaxy Tab S9 FE",
+    slug: "samsung-galaxy-tab-s9-fe",
+    categoryId: "electronics",
+    brandId: "samsung",
+    price: 32999,
+    originalPrice: 39999,
+    discountPercentage: 18,
+    rating: 4.6,
+    reviewCount: 860,
+    stock: 24,
+    images: "/ProductsImages/p3.webp",
+    description:
+      "Versatile Android tablet for entertainment, productivity and creative work.",
+      isNew:true
+
+  },
+  {
+    id: "elec-010",
+    name: "Samsung 990 EVO SSD 1TB",
+    slug: "samsung-990-evo-1tb",
+    categoryId: "electronics",
+    brandId: "samsung",
+    price: 8499,
+    originalPrice: 10999,
+    discountPercentage: 23,
+    rating: 4.7,
+    reviewCount: 410,
+    stock: 63,
+    images: "/ProductsImages/p2.webp",
+    description:
+      "High-performance NVMe SSD designed for fast storage and responsive computing.",
+      isNew:false
+
+  },{
+     id: "fashion-001",
+    name: "Classic Oversized Cotton Shirt",
+    slug: "classic-oversized-cotton-shirt",
+    categoryId: "fashion",
+    brandId: "zara",
+    price: 1990,
+    originalPrice: 2990,
+    discountPercentage: 33,
+    rating: 4.5,
+    reviewCount: 820,
+    stock: 91,
+    images: "/ProductsImages/p1.webp",
+    description:
+      "Relaxed-fit cotton shirt designed for effortless everyday styling.",
+      isNew:false
+
+  },{ 
+    
+    id: "fashion-002",
+    name: "Premium Relaxed Fit T-Shirt",
+    slug: "premium-relaxed-fit-tshirt",
+    categoryId: "fashion",
+    brandId: "hm",
+    price: 999,
+    originalPrice: 1499,
+    discountPercentage: 33,
+    rating: 4.4,
+    reviewCount: 1150,
+    stock: 128,
+    images: "/ProductsImages/overSizedShirt.webp",
+    description:
+      "Soft premium cotton T-shirt with a modern relaxed silhouette.",
+     isNew:true
+}
+]
