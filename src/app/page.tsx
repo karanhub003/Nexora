@@ -1,5 +1,6 @@
 import BrandSection from "@/components/home/brandSection/BrandSection";
 import CategoriesContent from "@/components/home/CategoriesSection/CategoriesContent";
+import EditorialSection from "@/components/home/EditorialSection/EditorialSection";
 import HeroSection from "@/components/home/HeroSection/HeroSection";
 import HighLightingProductsSection from "@/components/home/HighLightingProducts/HighLightingProductsSection";
 import PromotionalSection from "@/components/home/promotionalSection/promotionalSection"
@@ -19,6 +20,8 @@ export default function Home() {
       <TrustSection/>
       <UserRecommendedSection/>
       </div>
+      <EditorialSection/>
+      
       
       </>
     
