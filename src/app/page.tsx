@@ -4,6 +4,7 @@ import CollectionSection from "@/components/home/collectionSection/CollectionSec
 import EditorialSection from "@/components/home/EditorialSection/EditorialSection";
 import HeroSection from "@/components/home/HeroSection/HeroSection";
 import HighLightingProductsSection from "@/components/home/HighLightingProducts/HighLightingProductsSection";
+import NewsLetterSection from "@/components/home/newsLetterSection/NewsLetterSection";
 import PromotionalSection from "@/components/home/promotionalSection/promotionalSection"
 import UserRecommendedSection from "@/components/home/recommendationSectio/UserRecommendedSection";
 import TrustSection from "@/components/home/trustSection/TrustSection";
@@ -23,6 +24,9 @@ export default function Home() {
       </div>
       <EditorialSection/>
       <CollectionSection/>
+      <div className="w-full bg-black p-3">
+        <NewsLetterSection/>
+      </div>
       
       
       </>

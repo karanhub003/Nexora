@@ -11,7 +11,7 @@ type ButtonProps = {
 export default function button({
   children,
   variant = "primary",
-  size = "md",
+  size="sm",
   className,
 }: ButtonProps) {
   const baseStyle =
@@ -26,7 +26,7 @@ export default function button({
   };
 
   const variantSize = {
-    sm: " px-4 text-xs font-medium font-body rounded-lg",
+    sm: " text-xs font-medium font-body rounded-lg",
     md: "py-3 px-5 text-sm font-medium font-body rounded-full",
     lg: "py-4 px-8 text-sm  font-semibold font-body rounded-lg",
   };
