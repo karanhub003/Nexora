@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ChevronDown,Search,User,Heart,ShoppingCart } from "lucide-react";
+import Shop from "./dropdownmenus/Shop";
 
 export default function NavBar() {
   return (
@@ -8,10 +9,25 @@ export default function NavBar() {
         <h2 className="text-[24px] font-semibold font-display  tracking-[8px]">NEXORA</h2>
       </div>
       <div className="navLinksBox  flex space-x-10 font-body text-[16px] font-semibold text-[#3B3935] ">
-        <div className="shopBox flex items-center">
+       <div className=" group relative hover:underline  ">
+         <div className="shopBox flex items-center">
           <Link href="/">Shop</Link>
           <ChevronDown size="16px" />
         </div>
+       <div className=" invisible
+      absolute
+      left-0
+      top-full
+      z-50
+      pt-3
+      opacity-0
+      transition-opacity
+      duration-200
+      group-hover:visible
+      group-hover:opacity-100">
+         <Shop/>
+       </div>
+       </div>
         <div className="categoriesBox flex flex-row-reverse items-center ">
           <div className="div flex justify-center items-center"><ChevronDown size="16px" /></div>
           <Link href="/">Categories</Link>
