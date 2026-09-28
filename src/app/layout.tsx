@@ -22,7 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
     >
-      <body className={`${sora.variable} ${jakarta.variable}  min-h-full flex flex-col`}>
+      <body className={`${sora.variable} ${jakarta.variable}  min-h-screen flex flex-col`}>
         <header>
        <div className="announcementBarContainer bg-black w-full">
          <AnnouncementBar/>
@@ -31,10 +31,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <NavBar/>
         </div>
         </header>
-       <main>
+       <main className="grow">
          {children}
        </main>
-        <footer>
+        <footer className="bg-black w-full ">
           <Footer/>
         </footer>
 

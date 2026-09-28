@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function FinalCTASection() {
   return (
-    <div className='FinalCTASectionContainer  flex items-center justify-center py-2'>
+    <div className='FinalCTASectionContainer  flex items-center justify-center py-6'>
       <div className="wrapper  flex flex-col items-center justify-center p-1.5 gap-2">
           <div className="flex flex-col items-center justify-center leading-6">
             <h3 className="text-[20px] font-display font-bold [word-spacing:3px]">READY TO DISCOVER SOMETHING NEW?</h3>

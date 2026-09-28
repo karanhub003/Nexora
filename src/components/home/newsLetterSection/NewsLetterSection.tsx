@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function NewsLetterSection() {
   return (
-    <div className='NewsLetterSectionContainer  max-w-370 mx-auto grid grid-cols-[1.5fr_1fr] '>
+    <div className='NewsLetterSectionContainer  max-w-370 mx-auto grid grid-cols-[1.5fr_1fr] py-6 '>
         <div className="leftSide px-3 py-1">
             <p className='text-[10px] font-body tracking-[2px] font-medium uppercase text-[#9B968E]'>stay in the loop</p>
             <h3 className='text-[24px] font-display tracking-wide font-bold text-white'>Better products. Better discoveries</h3>

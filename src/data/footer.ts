@@ -62,3 +62,14 @@ export const customerCare: FooterLinks[] = [
   },
   { id: 5, name: "Contact Us" },
 ];
+
+export const companyLinks: FooterLinks[] = [
+  {
+    id: 1,
+    name: "About Nexora",
+  },
+  { id: 2, name: "Our Story" },
+  { id: 3, name: "Carers" },
+  { id: 4, name: "Journal" },
+  { id: 5, name: "Contact" },
+];
