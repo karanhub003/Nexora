@@ -2,6 +2,7 @@ import BrandSection from "@/components/home/brandSection/BrandSection";
 import CategoriesContent from "@/components/home/CategoriesSection/CategoriesContent";
 import CollectionSection from "@/components/home/collectionSection/CollectionSection";
 import EditorialSection from "@/components/home/EditorialSection/EditorialSection";
+import FinalCTASection from "@/components/home/finalCTAButton/FinalCTASection";
 import HeroSection from "@/components/home/HeroSection/HeroSection";
 import HighLightingProductsSection from "@/components/home/HighLightingProducts/HighLightingProductsSection";
 import NewsLetterSection from "@/components/home/newsLetterSection/NewsLetterSection";
@@ -27,6 +28,7 @@ export default function Home() {
       <div className="w-full bg-black p-3">
         <NewsLetterSection/>
       </div>
+      <FinalCTASection/>
       
       
       </>

@@ -3,6 +3,7 @@ import { Sora, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
 import NavBar from "@/components/layout/NavBar";
+import Footer from "@/components/layout/Footer";
 
 
 const sora = Sora({
@@ -33,6 +34,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
        <main>
          {children}
        </main>
+        <footer>
+          <Footer/>
+        </footer>
+
         </body>
     </html>
   );

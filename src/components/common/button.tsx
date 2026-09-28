@@ -26,7 +26,7 @@ export default function button({
   };
 
   const variantSize = {
-    sm: " text-xs font-medium font-body rounded-lg",
+    sm: " text-xs font-medium font-body rounded-full",
     md: "py-3 px-5 text-sm font-medium font-body rounded-full",
     lg: "py-4 px-8 text-sm  font-semibold font-body rounded-lg",
   };
