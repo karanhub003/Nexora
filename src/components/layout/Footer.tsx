@@ -69,7 +69,7 @@ export default function Footer() {
             </h2>
             <div className=" flex flex-col gap-1 text-[#9B968E] list-none ">
               {shopLinks.map((links) => (
-                <li>
+                <li key={links.id}>
                   <Link href="/">
                     <ul>{links.name}</ul>
                   </Link>
@@ -83,7 +83,7 @@ export default function Footer() {
             </h2>
             <div className="flex flex-col gap-1 text-[#9B968E] list-none ">
               {categoriesLinks.map((links) => (
-                <li>
+                <li key={links.id}>
                   <Link href="/">
                     <ul>{links.name}</ul>
                   </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
             </h2>
             <div className=" flex flex-col gap-1 text-[#9B968E] list-none ">
               {customerCare.map((links) => (
-                <li>
+                <li key={links.id}>
                   <Link href="/">
                     <ul>{links.name}</ul>
                   </Link>
@@ -111,7 +111,7 @@ export default function Footer() {
             </h2>
             <div className=" flex flex-col gap-1 text-[#9B968E] list-none ">
               {companyLinks.map((links) => (
-                <li>
+                <li key={links.id}>
                   <Link href="/">
                     <ul>{links.name}</ul>
                   </Link>
