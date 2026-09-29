@@ -1,62 +1,149 @@
-import { Categories } from "@/types/categories";
-import headphones from "@/images/Categories/headphone.webp"
-import fashion from "@/images/Categories/fashion.webp"
-import footwear from"@/images/Categories/footwear.webp"
-import home from "@/images/Categories/home.webp"
-import beauty from "@/images/Categories/beauty.webp"
-import sport from "@/images/Categories/sports.webp"
-import accessories from "@/images/Categories/accessories.webp"
-import bags from "@/images/Categories/bags.webp"
+import { Categories} from "@/types/categories";
+import headphones from "@/images/Categories/headphone.webp";
+import fashion from "@/images/Categories/fashion.webp";
+import footwear from "@/images/Categories/footwear.webp";
+import home from "@/images/Categories/home.webp";
+import beauty from "@/images/Categories/beauty.webp";
+import sport from "@/images/Categories/sports.webp";
+import accessories from "@/images/Categories/accessories.webp";
+import bags from "@/images/Categories/bags.webp";
 
-export const categories:Categories[]=[
-    {
+export const categories: Categories[] = [
+  {
     id: "electronics",
     name: "Electronics",
     slug: "electronics",
     image: headphones,
-    },
-    {
+    items: [
+      "Smartphones",
+      "Laptops",
+      "Headphones",
+      "Smart Watches",
+      "TV & Home Theatre",
+      "Cameras",
+      "Audio",
+      "Wearables",
+      "Computers",
+      "Smart Home",
+      "Gaming",
+      "Storage",
+      "Accessories",
+    ],
+  },
+  {
     id: "fashion",
     name: "fashion",
     slug: "fashion",
     image: fashion,
-    },
-    {
+    items: [
+      "Men's Clothing",
+      "Women's Clothing",
+      "T-Shirts",
+      "Shirts",
+      "Jeans",
+      "Dresses",
+      "Jackets",
+      "Activewear",
+      "Ethnic Wear",
+      "Winter Wear",
+    ],
+  },
+  {
     id: "Footwear",
     name: "Footwear",
     slug: "Footwear",
     image: footwear,
-    },
-    {
+    items: [
+      "Sneakers",
+      "Running Shoes",
+      "Casual Shoes",
+      "Formal Shoes",
+      "Sandals",
+      "Boots",
+      "Slippers",
+      "Sports Shoes",
+    ],
+  },
+  {
     id: "Home & Living",
     name: "Home & Living",
     slug: "Home & Living",
     image: home,
-    },
-    {
+    items: [
+      "Furniture",
+      "Home Decor",
+      "Lighting",
+      "Kitchen",
+      "Bedding",
+      "Bath",
+      "Storage & Organization",
+      "Home Appliances",
+      "Wall Art",
+    ],
+  },
+  {
     id: "Beauty",
     name: "Beauty",
     slug: "Beauty",
     image: beauty,
-    },
-    {
+    items: [
+      "Skincare",
+      "Makeup",
+      "Haircare",
+      "Fragrances",
+      "Bath & Body",
+      "Men's Grooming",
+      "Beauty Tools",
+      "Wellness",
+    ],
+  },
+  {
     id: "Sports",
     name: "Sports",
     slug: "Sports",
     image: sport,
-    },
-    {
+    items: [
+      "Fitness Equipment",
+      "Running",
+      "Cricket",
+      "Football",
+      "Basketball",
+      "Cycling",
+      "Yoga",
+      "Outdoor Sports",
+      "Sports Accessories",
+    ],
+  },
+  {
     id: "Accessories",
     name: "Accessories",
     slug: "Accessories",
     image: accessories,
-    },
-    {
+    items: [
+      "Watches",
+      "Sunglasses",
+      "Belts",
+      "Wallets",
+      "Jewellery",
+      "Hats & Caps",
+      "Scarves",
+      "Travel Accessories",
+    ],
+  },
+  {
     id: "Bags",
     name: "Bags",
     slug: "Bags",
     image: bags,
-    },
-    
-]
-
+    items: [
+      "Backpacks",
+      "Laptop Bags",
+      "Handbags",
+      "Shoulder Bags",
+      "Crossbody Bags",
+      "Travel Bags",
+      "Duffel Bags",
+      "Wallets & Pouches",
+    ],
+  },
+];

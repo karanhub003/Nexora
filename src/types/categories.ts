@@ -5,4 +5,6 @@ export type Categories={
     name:string,
     slug:string,
     image:StaticImageData,
+    items:string[]
 }
+

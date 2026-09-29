@@ -1,20 +1,24 @@
 import Link from "next/link";
-import { ChevronDown,Search,User,Heart,ShoppingCart } from "lucide-react";
+import { ChevronDown, Search, User, Heart, ShoppingCart } from "lucide-react";
 import Shop from "./dropdownmenus/Shop";
+import Categories from "./dropdownmenus/Categories";
 
 export default function NavBar() {
   return (
     <div className="navBarContainer flex justify-between items-center max-w-370 mx-auto p-3">
       <div className="title ">
-        <h2 className="text-[24px] font-semibold font-display  tracking-[8px]">NEXORA</h2>
+        <h2 className="text-[24px] font-semibold font-display  tracking-[8px]">
+          NEXORA
+        </h2>
       </div>
       <div className="navLinksBox  flex space-x-10 font-body text-[16px] font-semibold text-[#3B3935] ">
-       <div className=" group relative hover:underline  ">
-         <div className="shopBox flex items-center">
-          <Link href="/">Shop</Link>
-          <ChevronDown size="16px" />
-        </div>
-       <div className=" invisible
+        <div className=" group relative hover:underline  ">
+          <div className="shopBox flex items-center">
+            <Link href="/">Shop</Link>
+            <ChevronDown size="16px" />
+          </div>
+          <div
+            className=" invisible
       absolute
       left-0
       top-full
@@ -24,27 +28,57 @@ export default function NavBar() {
       transition-opacity
       duration-200
       group-hover:visible
-      group-hover:opacity-100">
-         <Shop/>
-       </div>
-       </div>
-        <div className="categoriesBox flex flex-row-reverse items-center ">
-          <div className="div flex justify-center items-center"><ChevronDown size="16px" /></div>
-          <Link href="/">Categories</Link>
+      group-hover:opacity-100"
+          >
+            <Shop />
+          </div>
         </div>
+
+        <div className="categoriesBox flex flex-row-reverse items-center group relative hover:underline ">
+          <div className="div flex justify-center items-center">
+            <ChevronDown size="16px" />
+          </div>
+          <Link href="/">Categories</Link>
+
+          <div
+      className="div 
+      w-100
+      absolute
+      left-0
+      top-full
+      z-50
+      pt-3
+      transition-opacity
+      duration-200
+      "
+          >
+            <Categories />
+          </div>
+        </div>
+
         <Link href="/">Deals</Link>
         <Link href="/">New Arrivals</Link>
         <Link href="/">Brands</Link>
       </div>
       <div className="searchBarContainer border flex items-center w-100 py-1.5 px-2 rounded-full space-x-2 border-[#E4E0DA]">
-        <Search size="16px" color="#77736D"/>
-        <input className="w-full placeholder:text-[14px] placeholder:text-[#77736D] outline-none " type="text" placeholder="Search for products, brand and more..." />
+        <Search size="16px" color="#77736D" />
+        <input
+          className="w-full placeholder:text-[14px] placeholder:text-[#77736D] outline-none "
+          type="text"
+          placeholder="Search for products, brand and more..."
+        />
       </div>
       <div className="userUtilBox flex space-x-8 ">
-        <Link href="/"><User size="20px"/></Link>
-        <Link href="/"><Heart size="20px"/></Link>
-        <Link href="/"><ShoppingCart size="20px"/></Link>
+        <Link href="/">
+          <User size="20px" />
+        </Link>
+        <Link href="/">
+          <Heart size="20px" />
+        </Link>
+        <Link href="/">
+          <ShoppingCart size="20px" />
+        </Link>
       </div>
     </div>
   );
-} 
+}
